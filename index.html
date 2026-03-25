@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <title>Olivio</title>
 </head>
+
 <body>
-       <header class="header">
-            <div class="container">
-                  <div class="header-container">
-                       <a href="#"><img src="./images/logo.png" alt=""></a>
-                       <ul class="header-list">
-                           <li class="header-item" ><a class="header-link" href="#">Why Alivio</a></li>
-                           <li class="header-item" ><a class="header-link" href="#">Solutions</a></li>
-                           <li class="header-item" ><a class="header-link" href="#">Community</a></li>
-                           <li class="header-item" ><a class="header-link" href="#">Pricing</a></li>
-                       </ul>
-                  </div>
+    <header class="header">
+        <div class="container">
+            <div class="header-container">
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </a>
+                <nav class="nav">
+                    <ul class="header-list">
+                        <li><a class="header-link active" href="#">Why Alivio</a></li>
+                        <li><a class="header-link" href="#">Solutions</a></li>
+                        <li><a class="header-link" href="#">Community</a></li>
+                        <li><a class="header-link" href="#">Pricing</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <a class="login" href="#">Sign In</a>
+                    <a class="btn" href="#">Start Trial</a>
+                </div>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-       </header>
+        </div>
+    </header>
+    <script src="./js/main.js"></script>
 </body>
 </html>
