@@ -107,7 +107,6 @@ body {
 
 
 @media (max-width: 768px) {
-
     .header-list {
         position: absolute;
         top: 80px;
@@ -131,4 +130,69 @@ body {
     .menu-toggle {
         display: flex;
     }
+}
+
+.hero {
+  position: relative;
+  padding-top: 120px;
+  height: 100vh;
+  background: url("../images/back.png") center/cover no-repeat;
+}
+
+.hero__content {
+  max-width: 550px;
+  color: #fff;
+  padding-top: 100px;
+}
+
+.hero__title{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #01996D;
+}
+
+.hero__title span {
+  color: #00c897;
+}
+
+.hero__text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #484848;
+  max-width: 400px;
+}
+
+.hero__btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  background: #00c897;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero__btn:hover {
+  background: #00a87a;
+  transform: translateY(-2px);
+}
+
+
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 120px 0 60px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+  }
+
+  .hero__text {
+    font-size: 16px;
+  }
 }
